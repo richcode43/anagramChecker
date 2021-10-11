@@ -24,16 +24,3 @@ function anagram(a, b) {
 anagram("ritchy", "yhctir");
 anagram("india", "nidia");
 anagram("hackathon", "achcthoon");
-
-
-
-
-const areAnagram = function(a, b) {
-    let one = a.toLowerCase().split('').sort().join('');
-    let two = b.toLowerCase().split('').sort().join('');
-
-    console.log(one === two)
-}
-
-areAnagram('listen', 'silent');
-areAnagram('inidia', 'diaini');
